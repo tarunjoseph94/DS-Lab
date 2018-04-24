@@ -42,7 +42,7 @@
         }
 
         towers(num - 1, frompeg, auxpeg, topeg);
-        printf("%d \n",num);
+        
         printf("\n Move disk %d from peg %c to peg %c", num, frompeg, topeg);
 
         towers(num - 1, auxpeg, topeg, frompeg);
